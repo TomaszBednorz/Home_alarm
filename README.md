@@ -8,8 +8,8 @@ Project for the class "Sensors in Embedded Applications"
 - Photocell to gate (IR based)
 
 ## 2. Functionalities
-- The MCU gather data (acceleration, angular rate, temperature and steps) from the IMU.
-- The raw data is send via BLE protocol when MCU is connected to another device. Each data type has its own own GATT characteristic.
+- The MCU gather data: distance from the ltrasonic sensor and logic output from the photocell.
+- The raw data is send via CAN protocol. Each data type has its own own frame ID.
 
 ## 3. TODO list
 ### Software
