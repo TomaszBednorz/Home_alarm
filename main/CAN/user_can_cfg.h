@@ -1,8 +1,6 @@
 #ifndef __USER_CAN_CFG__
 #define __USER_CAN_CFG__
 
-#include "user_can.h"
-
 /*
  * CAN configuration: task priority, task period
  */

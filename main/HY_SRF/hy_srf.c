@@ -10,7 +10,7 @@
 /* Error handler for the development phase */
 #define HY_SRF_ERROR_HANDLER()     do {} while (1)
 
-#define HY_SRF_SOUND_SPEED         (0.034f)  /* cm/us */
+#define HY_SRF_SOUND_SPEED         (0.0343f)  /* cm/us */
 #define HY_SRF_RESET_TIMER_VAL     (0U)
 
 typedef struct
