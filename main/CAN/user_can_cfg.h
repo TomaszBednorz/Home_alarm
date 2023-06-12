@@ -20,7 +20,7 @@
 /* CAN frames configuration: name, ID, period (ms), offset (ms), dlc */
 #define USER_CAN_CFG_TABLE  \
     USER_CAN_CFG_FRAME(UserCanFrame1_HySrf, 0x05, CAN_USER_TIME_TO_MS(10U), CAN_USER_TIME_TO_MS(0U), 2U)   \
-    USER_CAN_CFG_FRAME(UserCanFrame2_Ir_Ir, 0x10, CAN_USER_TIME_TO_MS(10U), CAN_USER_TIME_TO_MS(5U), 1U)
+    USER_CAN_CFG_FRAME(UserCanFrame2_Ir, 0x10, CAN_USER_TIME_TO_MS(10U), CAN_USER_TIME_TO_MS(5U), 1U)
 
 
 #endif
