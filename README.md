@@ -1,6 +1,6 @@
 # Home_alarm
 
-Project for the class "SSensors in Embedded Applications"
+Project for the class "Sensors in Embedded Applications"
 
 ## 1. Hardware
 - ESP32-DevKitC (ESP-WROOM-32)
