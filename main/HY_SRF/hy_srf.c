@@ -173,7 +173,7 @@ static void HySrf_ProcessData(void)
     HySrf_Data.averaging_queue[0] = (float)HySrf_TimerValue * HY_SRF_SOUND_SPEED / 2.0f;
     queue_sum += HySrf_Data.averaging_queue[0];
 
-    HySrf_Data.averaged_value = queue_sum / 5.0f;
+    HySrf_Data.averaged_value = queue_sum / IR_AVERAGING_QUEUE_SIZE;
 }
 
 /*
