@@ -1,5 +1,7 @@
 # Home_alarm
 
+Project for the class "SSensors in Embedded Applications"
+
 ## 1. Hardware
 - ESP32-DevKitC (ESP-WROOM-32)
 - HY-SRF05 ultrasonic sensor
