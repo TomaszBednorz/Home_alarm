@@ -61,7 +61,7 @@ static void App_ProcessHySrf(void)
     can_data[0] = (uint8_t)((distance & 0xFF00) >> 8U);
 
     /* Update CAN frame data*/
-    UserCan_FillFrame(UserCanFrame1, can_data);
+    UserCan_FillFrame(UserCanFrame1_HySrf, can_data);
 }
 
 /*
@@ -78,5 +78,5 @@ static void App_ProcessIr(void)
     can_data = (status & 0x01);
 
     /* Update CAN frame data*/
-    UserCan_FillFrame(UserCanFrame2, &can_data);
+    UserCan_FillFrame(UserCanFrame2_Ir, &can_data);
 }
